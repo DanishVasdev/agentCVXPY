@@ -1,0 +1,7 @@
+A factory makes two products, chairs and tables, to maximize weekly profit.
+Each chair sells for a profit of $15 and each table for a profit of $40.
+Each chair requires 3 hours of carpentry and 1 hour of finishing.
+Each table requires 5 hours of carpentry and 4 hours of finishing.
+The factory has 120 hours of carpentry time and 60 hours of finishing time available per week.
+The factory cannot produce a negative number of chairs or tables.
+How many chairs and tables should be produced each week to maximize profit?

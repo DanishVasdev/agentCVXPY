@@ -1,0 +1,7 @@
+An investor has $1 to allocate across three assets. The expected returns are 0.10, 0.15, and 0.08
+for assets 1, 2, and 3 respectively. The covariance matrix of the asset returns is
+[[0.05, 0.01, 0.00], [0.01, 0.08, 0.02], [0.00, 0.02, 0.03]].
+The investor wants to choose portfolio weights for the three assets that minimize portfolio risk,
+measured as the variance w^T Sigma w, subject to achieving an expected portfolio return of at least 0.10,
+investing the full dollar (weights summing to 1), and not allowing any short positions
+(each weight must be nonnegative).

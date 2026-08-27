@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nl2cvxpygen"
+version = "0.1.0"
+description = "Turn natural-language optimization problems into cvxpygen-generated embedded solver code."
+requires-python = ">=3.10"
+dependencies = [
+    "cvxpy>=1.9",
+    "cvxpygen>=1.0",
+    "google-genai>=0.3",
+    "pydantic>=2",
+    "typer>=0.12",
+    "rich>=13",
+    "python-dotenv>=1.0",
+]
+
+[project.scripts]
+nl2cvxpygen = "nl2cvxpygen.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]

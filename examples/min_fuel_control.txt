@@ -1,0 +1,14 @@
+A spacecraft moves along a line. Its state is described by position and velocity, and it is
+controlled by a sequence of 10 discrete-time thrust commands, one per time step, indexed
+0 through 9. Each thrust command can be positive or negative.
+
+The spacecraft starts at time 0 at position 0 with velocity 0. At each time step t, the
+position at t+1 equals the position at t plus the velocity at t. The velocity at t+1 equals
+the velocity at t plus the thrust command at t.
+
+Fuel consumed by a thrust command is proportional to its absolute value, with proportionality
+constant 1. Each individual thrust command's magnitude cannot exceed 1.
+
+Find the sequence of thrust commands that minimizes total fuel consumed (the sum of the
+absolute values of all 10 thrust commands) such that at time step 10 the spacecraft reaches
+exactly position 6 with exactly zero velocity.

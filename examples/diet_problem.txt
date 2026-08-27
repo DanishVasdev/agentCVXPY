@@ -1,0 +1,6 @@
+A dietitian wants to plan a minimum-cost daily diet using two foods: bread and milk.
+One unit of bread costs $2 and provides 4 units of protein and 2 units of vitamin A.
+One unit of milk costs $3 and provides 3 units of protein and 5 units of vitamin A.
+The diet must provide at least 24 units of protein and at least 20 units of vitamin A per day.
+You cannot buy a negative amount of either food.
+Find the amounts of bread and milk that minimize total cost while meeting the nutrition requirements.
